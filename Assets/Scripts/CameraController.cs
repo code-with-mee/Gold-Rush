@@ -22,15 +22,39 @@ public class CameraController : MonoBehaviour
     private float rotateX;
     private float rotateY;
 
+    [SerializeField] GameObject pauseScreen;
+
     private void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-
+        Time.timeScale = 1;
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            bool isShowPauseScreen = !pauseScreen.activeSelf;
+            if (isShowPauseScreen)
+            {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+                pauseScreen.SetActive(isShowPauseScreen);
+                Time.timeScale = 0; //freeze
+            }
+            else
+            {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                pauseScreen.SetActive(isShowPauseScreen);
+                Time.timeScale = 1;
+            }
+        }
+
+        if (Time.timeScale == 0)
+            return;
+
         rotateX += Input.GetAxis("Mouse Y");
         rotateY += Input.GetAxis("Mouse X");
 
