@@ -1,0 +1,19 @@
+# ninja log v5
+0	3729	1760006980369748752	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4ea04befb8a55ecf
+2	3409	1760006980044641033	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f7c779f020e545bf
+9	2916	1760006979559773715	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	735e818a47c9bd52
+1	2750	1760006979373248230	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c1f7195ace2edb1b
+7	2588	1760006979220172941	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a8428c65abe0de5f
+0	2535	1760006979179334134	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	6b31eb99da0cffbe
+1	2433	1760006979071022464	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f2b8bc2c728b222b
+3729	3968	1760006980615846231	/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2p1x2x4d/obj/arm64-v8a/libgame.so	c1f37121a48ee5f6
+5	2413	1760006979045525762	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	7b8fdeaa9dc66290
+8	1720	1760012386935802580	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	7b8fdeaa9dc66290
+8	1724	1760012386941434061	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f2b8bc2c728b222b
+8	1797	1760012387013046553	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a8428c65abe0de5f
+7	1806	1760012387026016132	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	6b31eb99da0cffbe
+7	1881	1760012387097264007	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c1f7195ace2edb1b
+9	2005	1760012387225280713	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	735e818a47c9bd52
+8	2238	1760012387458409818	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f7c779f020e545bf
+7	2414	1760012387634615909	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4ea04befb8a55ecf
+2414	2558	1760012387780494795	/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2p1x2x4d/obj/arm64-v8a/libgame.so	c1f37121a48ee5f6

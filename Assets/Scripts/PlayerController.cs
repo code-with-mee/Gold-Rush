@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private CameraController cameraController;
     [SerializeField] private float speed = 5;
     [SerializeField] private float rotateSpeed = 500;
+    //joystick control player movement
+    [SerializeField] private FixedJoystick fixedJoystick;
 
     private Quaternion targetRotation;
     private Animator animator;
@@ -20,8 +22,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        //float h = Input.GetAxis("Horizontal");
+        //float v = Input.GetAxis("Vertical");
+
+        float h = fixedJoystick.Horizontal;
+        float v = fixedJoystick.Vertical;
 
         float moveAmount = Mathf.Clamp(Mathf.Abs(h)+ Mathf.Abs(v), 0, 1);
 

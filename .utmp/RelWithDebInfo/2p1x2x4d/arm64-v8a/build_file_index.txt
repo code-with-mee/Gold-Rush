@@ -1,0 +1,2 @@
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt

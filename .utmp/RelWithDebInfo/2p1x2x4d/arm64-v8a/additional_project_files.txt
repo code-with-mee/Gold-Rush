@@ -1,0 +1,17 @@
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/GAToUnityCallbacks.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroEnd.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroHeaderBegin.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroSourceBegin.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAApplication.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAConfiguration.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGADebug.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAEvents.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAInput.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboard.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboardCallbacks.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGATypes.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAVersion.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGACallbacks.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAConfigurationCallbacks.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAKeyEventCallbacks.h
+/Users/kingly/Desktop/M13/Gold Rush Git/Gold-Rush/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAMotionEventCallbacks.h

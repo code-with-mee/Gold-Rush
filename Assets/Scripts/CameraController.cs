@@ -23,11 +23,11 @@ public class CameraController : MonoBehaviour
     private float rotateY;
 
     [SerializeField] GameObject pauseScreen;
-
+    [SerializeField] private FixedJoystick fixedJoystick;
     private void Start()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1;
     }
 
@@ -55,8 +55,11 @@ public class CameraController : MonoBehaviour
         if (Time.timeScale == 0)
             return;
 
-        rotateX += Input.GetAxis("Mouse Y");
-        rotateY += Input.GetAxis("Mouse X");
+        // rotateX += Input.GetAxis("Mouse Y");
+        // rotateY += Input.GetAxis("Mouse X");
+
+        rotateX += fixedJoystick.Vertical;
+        rotateY += fixedJoystick.Horizontal;
 
         rotateX = Mathf.Clamp(rotateX,minAngle,maxAngle);
 
