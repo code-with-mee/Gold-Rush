@@ -37,6 +37,8 @@ public class EnemyMovement : MonoBehaviour
     private Vector3 currentPatrolPoint;
     private bool hasPatrolPoint;
 
+    private UIManager uiManager = null;
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -44,6 +46,8 @@ public class EnemyMovement : MonoBehaviour
         agent.stoppingDistance = stopRange;
         agent.updateRotation = !manualRotate;
         spawnPosition = transform.position;
+
+        uiManager = FindFirstObjectByType<UIManager>();
     }
 
     private void Start()
@@ -164,6 +168,10 @@ public class EnemyMovement : MonoBehaviour
         {
             hasHit = true;
             Debug.Log($"{gameObject.name} Hit Player");
+            uiManager.ShowWinLoseScreen("YOU FAILED :(");
+            Time.timeScale = 0;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
         else if (!hasHit && other.CompareTag("Gold"))
         {

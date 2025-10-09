@@ -5,6 +5,7 @@
 		<type fullname="GoldRotate" preserve="nothing"/>
 		<type fullname="MenuController" preserve="nothing"/>
 		<type fullname="PlayerController" preserve="nothing"/>
+		<type fullname="UIManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.AI.Navigation">
 		<type fullname="Unity.AI.Navigation.NavMeshSurface" preserve="nothing"/>

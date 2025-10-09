@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,10 +11,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text labelWinLose;
     [SerializeField] private GameObject winloseScreen;
 
-
-    public void ShowWinningScreen()
+    private void OnEnable()
     {
-        labelWinLose.text = "LEVEL COMPLETED.";
+        GoldCount = 0;
+        goldCountLabel.text = "GOLD : " + GoldCount;
+    }
+    public void ShowWinLoseScreen(String message)
+    {
+        labelWinLose.text = message;
         winloseScreen.SetActive(true);
     }
 

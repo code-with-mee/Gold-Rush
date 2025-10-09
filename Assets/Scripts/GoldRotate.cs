@@ -27,7 +27,7 @@ public class GoldRotate : MonoBehaviour
             if (golds != null && golds.Length == 1)
             {
                 Debug.Log("Winning.");
-                uiManager.ShowWinningScreen();
+                uiManager.ShowWinLoseScreen("LEVEL COMPLETED!");
                 Time.timeScale = 0;
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;

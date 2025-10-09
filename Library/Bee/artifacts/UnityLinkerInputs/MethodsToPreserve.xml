@@ -8,6 +8,11 @@
 			<method name="ShowLevel"/>
 			<method name="ShowTitle"/>
 		</type>
+		<type fullname="UIManager">
+			<method name="BackToMenu"/>
+			<method name="BackToMenu"/>
+			<method name="RestartGame"/>
+		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
